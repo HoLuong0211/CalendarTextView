@@ -131,12 +131,4 @@ public class CalendarTextView extends LinearLayout {
         mCurrentDate = currentDate;
         etDate.setText(DateTimeUtils.formatJapaneseDate(mCurrentDate.getTime()));
     }
-
-    public String getTextValue() {
-        return etDate.getText().toString();
-    }
-
-    public void requestFocusTextView() {
-        etDate.requestFocus();
-    }
 }
