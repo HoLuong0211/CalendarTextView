@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/et_date"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/pink"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:hint="@string/please_select"
+        android:maxLines="1"
+        android:paddingEnd="@dimen/_4sdp"
+        android:paddingLeft="@dimen/_4sdp"
+        android:paddingRight="@dimen/_4sdp"
+        android:paddingStart="@dimen/_4sdp"
+        android:textColor="@color/dark_gray"
+        android:textColorHint="@color/dark_gray"
+        android:textSize="@dimen/_7sdp"/>
+
+    <ImageView
+        android:id="@+id/btn_calendar"
+        android:layout_width="@dimen/_16sdp"
+        android:layout_height="@dimen/_16sdp"
+        android:background="@drawable/bg_white_solid_dark_gray_stroke"
+        android:padding="@dimen/_3sdp"
+        android:src="@drawable/ic_calendar"/>
+</LinearLayout>
