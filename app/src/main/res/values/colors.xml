@@ -10,4 +10,7 @@
     <color name="dark_gray3">#333333</color>
     <color name="red">#FF0000</color>
     <color name="pink">#ffcccc</color>
+
+    <color name="light_orange">#ffcc99</color>
+    <color name="light_sky_blue">#daeaff</color>
 </resources>
