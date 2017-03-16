@@ -93,9 +93,10 @@ public class CalendarTextView extends LinearLayout {
             mPopupWindow.setOutsideTouchable(true);
 
             // display the popup in the center
-//            mPopupWindow.showAtLocation(v, Gravity.CENTER, 0, 0);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-                mPopupWindow.showAsDropDown(v, 0, 0, Gravity.RIGHT);
+                mPopupWindow.showAsDropDown(v, 0, 0, Gravity.END);
+            } else {
+                mPopupWindow.showAsDropDown(v, v.getWidth() - mPopupWindow.getWidth(), 0);
             }
 
             CalendarView calendarView = (CalendarView) layout.findViewById(R.id.calendar_view);

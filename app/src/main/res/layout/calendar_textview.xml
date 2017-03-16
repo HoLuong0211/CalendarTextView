@@ -9,7 +9,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="@color/pink"
+        android:background="@drawable/bg_light_pink_solid_left_top_bottom_gray_border"
         android:focusable="false"
         android:gravity="center_vertical"
         android:hint="@string/please_select"

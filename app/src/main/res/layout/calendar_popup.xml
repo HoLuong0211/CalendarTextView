@@ -5,7 +5,7 @@
               android:layout_height="match_parent"
               android:orientation="vertical">
 
-    <jp.genesis.masion.mvp.customviews.CalendarView
+    <ominext.com.calendartextview.view.CalendarView
         android:id="@+id/calendar_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
